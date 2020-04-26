@@ -5,12 +5,15 @@ body {
     background-color: hsl(0, 0%, 98%);
 }
 
+/* Titulos */
 h1 {
     text-align: center;
-    font-weight: 400;
+    font-weight: 200;
     padding: 30px 0 0 0;
     font-size: 30px;
     color:hsl(234, 12%, 34%);
+    display: flex;
+    justify-content: center;
 }
 
 h1, h2 {
@@ -25,10 +28,46 @@ h2 {
     color: hsl(234, 12%, 34%);
 }
 
-p {
+/* Descipcion de la página */
+p{
     text-align: center;
     font-weight: 200;
     font-size: 15px;
     color: hsl(229, 6%, 66%);
-    padding: 0 230px 0 230px;
+    padding: 10px 40px 100px 40px;
+}
+
+/* Propiedades generales de los rectangulos */
+span {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+div {
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px hsl(229, 6%, 66%);
+    width: 350px;
+    height: 300px;
+}
+
+/* Rectangulos */
+
+#log1, #log2, #log3, #log4 {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+#log1 {
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+#log2 {
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.text_rectangles{
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
 }
